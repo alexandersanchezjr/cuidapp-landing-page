@@ -1,15 +1,11 @@
 // import { useState } from 'react'
 import Header from './components/Header.jsx'
-import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Analytics />
-      <Header />
-    </>
+    <Header />
     /*
     <>
       <div>
