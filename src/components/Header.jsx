@@ -59,7 +59,7 @@ export default function Header() {
               <h1 className='mb-3 title'>EL APOYO QUE NECESITAS</h1>
               <h4 className='mb-3 text-wrap'>Estamos para realizar las tareas del hogar por ti, y que puedas disfrutar mas de tus tiempos libres con tranquilidad.</h4>
               <div className='d-flex justify-content-center'>
-                <button className='my-button '>
+                <button href='/form' className='my-button'>
                   DESCÚBRELO
                 </button>
               </div>

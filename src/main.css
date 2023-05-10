@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Simply Rounded';
+    src: url('/fonts/Simply Rounded.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Classic';
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
