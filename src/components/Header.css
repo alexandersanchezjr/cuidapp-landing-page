@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Simply Rounded';
+    src: url('/fonts/Simply Rounded.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Classic';
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+.title {
+    font-family: 'League Spartan', sans-serif;
+    color: #591ab1;
+    font-size: 4.5rem;  
+}
+
+h4 {
+    font-family: 'Simply Rounded', sans-serif;
+    color: black;
+}
+
+.my-button {
+    font-family: 'Montserrat Classic', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #591ab1;
+    border-radius: 2.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 3.5rem;
+    height: 3.9rem;
+    width: 18rem;
+}
+
+.purple-navbar-text {
+    color: #591ab1;
+    font-family: 'Montserrat Classic', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px !important;
+}
+
+.navbar-item {
+    color: #591ab1;
+    font-family: 'Montserrat Classic', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px !important;
+    text-transform: uppercase;
+}
+
+.register-button {
+    font-family: 'Montserrat Classic', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #591ab1;
+    border-radius: 2.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 3.5rem;
+    height: 3rem;
+    width: 12rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+  }
