@@ -46,13 +46,14 @@ h4 {
     font-size: 40px !important;
 }
 
-.navbar-item {
+.navbar a {
     color: #591ab1;
     font-family: 'Montserrat Classic', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 20px !important;
     text-transform: uppercase;
+    margin-right: 2.5rem;
 }
 
 .register-button {
@@ -63,13 +64,7 @@ h4 {
     border-radius: 2.5rem;
     border: none;
     padding: 0.5rem 1rem;
-    margin-top: 3.5rem;
     height: 3rem;
     width: 12rem;
+    margin-right: 2.5rem;
 }
-
-.navbar-nav {
-    display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center; /* vertical centering */
-  }

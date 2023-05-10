@@ -40,12 +40,14 @@ export default function Header() {
             <MDBIcon icon='bars' fas />
           </MDBNavbarToggler>
           <MDBCollapse navbar show={showNavRight} >
-            <ul right fullWidth={false} className='d-flex justify-content-end'> 
-              <MDBNavbarLink className='navbar-item' href='#'>INICIAR SESIÓN</MDBNavbarLink>
-              <button className='register-button'>
-                REGISTRO
-              </button>
-            </ul>
+            <MDBNavbarNav right fullWidth={false} className='d-flex justify-content-center'> 
+              <MDBNavbarItem className='d-flex align-items-center'>
+                <MDBNavbarLink href='#'>INICIAR SESIÓN</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem className='d-flex align-items-center'>
+                <button className='register-button' href='#'>REGISTRO</button>
+              </MDBNavbarItem>
+            </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
