@@ -23,7 +23,7 @@ export default function Header() {
         <MDBContainer fluid>
           <MDBNavbarBrand className='purple-navbar-text text-uppercase' href='#'>
             <img
-              src='../../public/cuidapp.png'
+              src='/cuidapp.png'
               height='80'
               className='ms-4'
               alt=''
