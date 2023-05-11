@@ -3,20 +3,12 @@ import Header from './components/Header.jsx'
 import Form from './components/Form.jsx'
 import Footer from './components/Footer.jsx'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
 function App() {
   const myRef = useRef(null)
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/form" component={Form} />
-          <Route path="/" component={Header} />
-        </Routes>
-      </Router>
       <Header/>
       <Form />  
       <Footer />  
