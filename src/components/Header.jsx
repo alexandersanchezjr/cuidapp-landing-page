@@ -61,7 +61,7 @@ export default function Header() {
               <h4 className='mb-3 text-wrap'>Estamos para realizar las tareas del hogar por ti, y que puedas disfrutar mas de tus tiempos libres con tranquilidad.</h4>
               <div className='d-flex justify-content-center'>
                 <button onClick={() => {
-                    va.track('Call to Action');
+                    va.track('Call to Action')
                   }} className='my-button'>
                   DESCÚBRELO
                 </button>
