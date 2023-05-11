@@ -18,7 +18,7 @@ export default function Form() {
                     <MDBCardTitle>¡Estemos en contacto!</MDBCardTitle>
                     <MDBInput id='form4Example1' wrapperClass='mb-4' label='Nombre' />
                     <MDBInput type='email' id='form4Example2' wrapperClass='mb-4' label='Email' />
-                    <MDBInput wrapperClass='mb-4' textarea id='form4Example3' style={{ height: '10rem' }} label='Mensaje' />
+                    <MDBInput wrapperClass='mb-4' textarea="true" id='form4Example3' style={{ height: '10rem' }} label='Mensaje' />
 
                     <MDBCheckbox
                         wrapperClass='d-flex justify-content-center mb-4'

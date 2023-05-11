@@ -14,6 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/form" component={Form} />
+          <Route path="/" component={Header} />
         </Routes>
       </Router>
       <Header/>
