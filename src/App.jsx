@@ -1,20 +1,22 @@
-// import { useState } from 'react'
+import { useRef } from 'react'
 import Header from './components/Header.jsx'
 import Form from './components/Form.jsx'
 import Footer from './components/Footer.jsx'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
+  const myRef = useRef(null)
   // const [count, setCount] = useState(0)
 
   return (
     <>
       <Router>
-        <Switch>
+        <Routes>
           <Route path="/form" component={Form} />
-        </Switch>
+        </Routes>
       </Router>
-      <Header />
+      <Header/>
       <Form />  
       <Footer />  
     </>
