@@ -12,7 +12,7 @@ import '../styles/FormStyles.css'
 
 export default function Form() {
     return (
-        <div className='d-flex justify-content-center p-5 vh-100' style={{ background: 'linear-gradient(to bottom, #ffaaf8, #591ab1', fontFamily: 'Simply Rounded' }}>
+        <div className='d-flex justify-content-center p-5 vh-50' style={{ background: 'linear-gradient(to bottom, #ffaaf8, #591ab1', fontFamily: 'Simply Rounded' }}>
             <MDBCard className='card-main'>
                 <MDBCardBody>
                     <form className='h-100 position-relative'>
