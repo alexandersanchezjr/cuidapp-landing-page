@@ -1,0 +1,13 @@
+.card-main{
+    width: 40%;
+    height: 90%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .card-main{
+        width: 90%;
+        height: 80%;
+    }
+}

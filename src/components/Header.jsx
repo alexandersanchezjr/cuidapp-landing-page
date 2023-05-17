@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import background from '../assets/cleaning-arc.png'
 import va from '@vercel/analytics'
-import './Header.css'
+import '../styles/HeaderStyles.css'
+
 import {
   MDBNavbar,
   MDBNavbarNav,
@@ -22,7 +23,7 @@ export default function Header() {
     <header  style={{ background: 'linear-gradient(to right, rgb(255, 247, 173), rgb(255, 170, 248))' }}>
       <MDBNavbar className='shadow-0' expand='lg' style={{ height: '10rem' }}>
         <MDBContainer fluid>
-          <MDBNavbarBrand className='purple-navbar-text text-uppercase' href='#'>
+          <MDBNavbarBrand className='purple-navbar-text' href='#'>
             <img
               src='/cuidapp.png'
               height='80'
@@ -40,10 +41,10 @@ export default function Header() {
           >
             <MDBIcon icon='bars' fas />
           </MDBNavbarToggler>
-          <MDBCollapse navbar show={showNavRight} >
-            <MDBNavbarNav right fullWidth={false} className='d-flex justify-content-center'> 
+          <MDBCollapse navbar show={showNavRight}>
+            <MDBNavbarNav right fullWidth={false} className='navbar-container-buttons'> 
               <MDBNavbarItem className='d-flex align-items-center'>
-                <MDBNavbarLink href='#'>INICIAR SESIÓN</MDBNavbarLink>
+                <MDBNavbarLink href='#' className='link-text'>INICIAR SESIÓN</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem className='d-flex align-items-center'>
                 <button className='register-button' href='#'>REGISTRO</button>
@@ -52,13 +53,13 @@ export default function Header() {
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
-      <div className='d-flex flex-row text-center bg-image vh-100'>
+      <div className='container-main-header'>
         <div>
           <div className='d-flex align-items-center h-100 ms-5'>
             <div className='w-100 text-start'>
-              <h4 className='mb-3 text-wrap'>Afiliación y contratación de servicios domésticos</h4>
-              <h1 className='mb-3 title'>EL APOYO QUE NECESITAS</h1>
-              <h4 className='mb-3 text-wrap'>Estamos para realizar las tareas del hogar por ti, y que puedas disfrutar mas de tus tiempos libres con tranquilidad.</h4>
+              <h4 className='text-wrap'>Afiliación y contratación de servicios domésticos</h4>
+              <h1 className='title'>EL APOYO QUE NECESITAS</h1>
+              <h4 className='text-wrap'>Estamos para realizar las tareas del hogar por ti, y que puedas disfrutar mas de tus tiempos libres con tranquilidad.</h4>
               <div className='d-flex justify-content-center'>
                 <button onClick={() => {
                     va.track('Call to Action')
@@ -70,7 +71,7 @@ export default function Header() {
           </div>
         </div>
         <div>
-          <img src={background} alt="" className='vh-100 w-125'  />
+          <img src={background} alt="" />
         </div>
       </div>
     </header>
