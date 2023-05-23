@@ -61,11 +61,13 @@ export default function Header() {
               <h1 className='title'>EL APOYO QUE NECESITAS</h1>
               <h4 className='text-wrap'>Estamos para realizar las tareas del hogar por ti, y que puedas disfrutar mas de tus tiempos libres con tranquilidad.</h4>
               <div className='d-flex justify-content-center'>
-                <button onClick={() => {
-                    va.track('Call to Action')
-                  }} className='my-button'>
-                  DESCÚBRELO
-                </button>
+                <a href='https://forms.gle/p5JLbdwG4WvoRh9h8' target='_blank'>
+                  <button onClick={() => {
+                      va.track('Call to Action')
+                    }} className='my-button'>
+                    DESCÚBRELO
+                  </button>
+                </a>
               </div>
             </div>
           </div>
